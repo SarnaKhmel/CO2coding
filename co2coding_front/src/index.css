@@ -12,3 +12,16 @@ code {
     monospace;
 }
 
+.headerApp{
+  height: 20%;
+  background-color: rgb(115, 221, 204);
+}
+.footerApp {
+  height: 10%;
+  background-color: rgb(115, 221, 204);
+}
+.bodyApp{
+  height: 70%;
+  background-color: rgb(56, 56, 56);
+}
+

@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 
 class Footer extends React.Component
 {
   render()
   {
     return (
-       <footer>
+       <footer className="footerApp">
             <nav class="navbar navbar-expand-sm" >
                 <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -23,6 +24,20 @@ class Footer extends React.Component
                 </li>
                 </ul>
             </nav>
+            <nav class="navbar navbar-expand-sm" >
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    by OlSa for DataArt Programmer Day
+                </li>
+                <li class="nav-item">
+                   <image src="http://"></image>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/SarnaKhmel/CO2coding">Github Project</a>
+                </li>
+                </ul>
+            </nav>
+
        </footer>
     )
   }

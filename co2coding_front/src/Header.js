@@ -7,10 +7,10 @@ class Header extends React.Component
   render()
   {
     return (
-        <header className="headerApp">
-            <nav class="navbar navbar-expand-sm center-block" >
+        <header className="headerApp" style={{display: 'flex', flexDirection:'row'}}>
+            <nav class="" style={{display: 'flex', flexDirection:'row'}} >
                 <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="./">Home</a>
                 </li>
                 <li class="nav-item">
@@ -19,9 +19,9 @@ class Header extends React.Component
                 <li class="nav-item">
                     <a class="nav-link" href="./summary">Summary</a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                     <a class="nav-link" href="#">My things about that</a>
-                </li>
+                </li> */}
                 </ul>
             </nav>
        </header>

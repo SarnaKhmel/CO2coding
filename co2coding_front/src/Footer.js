@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component}from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
@@ -7,8 +8,8 @@ class Footer extends React.Component
   render()
   {
     return (
-       <footer className="footerApp">
-            <nav class="navbar navbar-expand-sm" >
+       <footer className="footerApp" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+            <nav class="navbar navbar-expand-sm pages" style={{justifyContent: 'center', alignItems: 'center'}} >
                 <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="./">Home</a>
@@ -19,20 +20,18 @@ class Footer extends React.Component
                 <li class="nav-item">
                     <a class="nav-link" href="./summary">Summary</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">My things about that</a>
-                </li>
                 </ul>
             </nav>
-            <nav class="navbar navbar-expand-sm" >
+
+            <nav class="navbar navbar-expand-sm info" style={{justifyContent: 'center', marginLeft: '20px'}}>
                 <ul class="navbar-nav">
                 <li class="nav-item active">
                     by OlSa for DataArt Programmer Day
                 </li>
-                <li class="nav-item">
+                <li class="nav-item"  >
                    <image src="http://"></image>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" style = {{marginLeft: '20px'}}>
                     <a href="https://github.com/SarnaKhmel/CO2coding">Github Project</a>
                 </li>
                 </ul>
@@ -43,3 +42,12 @@ class Footer extends React.Component
   }
 }
 export default Footer;
+
+// const styles = StyleSheet.create( 
+//     {info: {
+//         display: flex,
+//         justifyContent:center
+//     }
+
+// }) 
+   

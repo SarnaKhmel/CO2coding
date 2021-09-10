@@ -12,16 +12,48 @@ code {
     monospace;
 }
 
+/* .main {
+   display: flex; 
+} */
 .headerApp{
   height: 20%;
-  background-color: rgb(115, 221, 204);
-}
-.footerApp {
-  height: 10%;
-  background-color: rgb(115, 221, 204);
-}
-.bodyApp{
-  height: 70%;
-  background-color: rgb(56, 56, 56);
+  background-color: #f5eec2;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  
 }
 
+.bodyApp{
+  height: 70%;
+  background-color:#a9c25d;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.footerApp {
+  height: 10%;
+  background-color: #73a24e;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  color: black;
+}
+
+
+.title {
+  text-align: center;
+}
+
+.aboutTeam {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-align: center;
+}
